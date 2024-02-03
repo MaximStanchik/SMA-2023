@@ -1,0 +1,18 @@
+
+------------ПРОТОКОЛ------------
+ ----22.12.23 12:11:55----
+ 
+ ---- Параметры ---- 
+
+-in: D:\User\Desktop\SMA-2023\Solution\SMA-2023\Debug\program.txt.log
+-out: D:\User\Desktop\SMA-2023\Solution\SMA-2023\Debug\program.txt.log.out.asm
+-log: D:\User\Desktop\SMA-2023\Solution\SMA-2023\Debug\program.txt.log.log
+
+---- Исходные данные ----
+
+Всего символов: 478
+Всего строк: 23
+Пропущено: 0
+
+Ошибка 205: { LEXICAL } Неизвестная последовательность символов
+Строка 2 позиция 20

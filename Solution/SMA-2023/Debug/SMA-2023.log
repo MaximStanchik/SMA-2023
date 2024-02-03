@@ -1,0 +1,36 @@
+﻿Сборка начата 27.12.2023 14:21:49.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\SMA-2023\Solution\SMA-2023\SMA-2023.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SMA-2023.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\SMA-2023.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Greibach.cpp
+         Greibach.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\SMA-2023\Solution\SMA-2023\Debug\SMA-2023.exe" /INCREMENTAL /ILK:"Debug\SMA-2023.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\SMA-2023\Solution\SMA-2023\Debug\SMA-2023.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\SMA-2023\Solution\SMA-2023\Debug\SMA-2023.lib" /MACHINE:X86 Debug\div.obj
+         Debug\Error.obj
+         Debug\FST.obj
+         Debug\Generation.obj
+         Debug\Greibach.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\LexAnalysis.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Out.obj
+         Debug\Parm.obj
+         Debug\Polish.obj
+         Debug\SemanticAnalysis.obj
+         "Debug\SMA-2023.obj"
+         SMA-2023.vcxproj -> D:\User\Desktop\SMA-2023\Solution\SMA-2023\Debug\SMA-2023.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SMA-2023.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SMA-2023.tlog\SMA-2023.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\SMA-2023\Solution\SMA-2023\SMA-2023.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.43

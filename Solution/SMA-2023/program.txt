@@ -1,0 +1,73 @@
+boolean method EvenCheck( int k)
+{
+var boolean h;
+k= k % 2;
+ condition (k ~ 0)
+ {
+   h =true;
+ }
+ otherwise
+ {
+   h =false;
+ }
+recive h;
+}
+
+int method GetFact( int n)
+{
+  var int k;
+  var int j;
+ condition (n < 0)
+ {
+   k = 0;
+ }
+ 
+ condition (n ~ 0)
+ {
+   k = 1;
+ } 
+ otherwise
+ {
+   j=n-1;
+   k=n*GetFact(j);
+ }
+recive k;
+}
+
+procedure Count(string h)
+{
+ ? write "счет от нуля до длины строки: ";
+  write h;
+  hortab;
+  var int length = strlength (h);
+  var int i=0;
+  cycle (i < length)
+  {
+   write i;
+   write ',';
+   i=i+1; 
+  }
+}
+
+primary
+{
+ var int number = GetFact(7);  ? вычисляем факториал 
+ ? write "факториал числа равен: ";
+ write number;
+ hortab ;
+ var boolean iseven = EvenCheck(number); ? Проверка на четность числа 
+ write iseven;
+ hortab ;
+ Count("hello");
+ hortab ;
+ var int binary = ^10001010;
+ write binary;
+ hortab ;
+ var int octal = 015; 
+ var int result = strlength ("hello")+((^1010+i012+45)/(2+(4*5+1)/3))+ stoi ("12")+(octal+binary)%2;
+ write result;  
+ hortab ;
+ var int g = strcomp("hello","hell");
+ write g;
+ hortab ;
+}
